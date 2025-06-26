@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class esercizioCondizioni {
@@ -29,4 +30,5 @@ public class esercizioCondizioni {
             System.out.print("Non ammesso alla gara");
 
     }
+
 }

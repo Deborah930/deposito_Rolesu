@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class provaCicli {
+public class ProvaCicli {
     public static void main(String[] args) {
       
       

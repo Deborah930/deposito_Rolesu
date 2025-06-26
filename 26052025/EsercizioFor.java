@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 public class EsercizioFor {
     public static void main(String[] args) {
+
+        // premessa: mi sono basata molto sul tuo esercizio perchè avevo problemi a svolgerlo.
+
+
+
         // richiesta all'utente quanti voti vuole inserire
         Scanner input = new Scanner(System.in);
 
@@ -47,6 +52,7 @@ public class EsercizioFor {
         }
         // stampa dei voti totali validi
         System.out.println("Totale voti validi:" + votoValido);
-
+        input.close();
     }
+//EXTRA: ANDARE A isnerire il nomitavivo all'inzioio e stampare alla fine il nome e la media dei voti della persona, si deve ptoer ripetere per più persone
 }

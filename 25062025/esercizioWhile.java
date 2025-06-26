@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class esercizioWhile {
+public class EsercizioWhile {
     public static void main(String[] args) {
         String password_corretta= "java123";
        Scanner input = new Scanner(System.in);
@@ -22,6 +22,7 @@ public class esercizioWhile {
             tentativo ++;
             }
         }
+        input.close();
     }
 }
                   //String conferma;// con il char da errore nell'input

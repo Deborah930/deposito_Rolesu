@@ -23,9 +23,10 @@ public class UltimoEsercizioOggetti {
 
 }
 
-class Auto {
+   class Auto {
     private String targa;// dichiarazione attributi
     private String modello;
+
 
     // costruttore
     Auto(String targa, String modello) {// richiamo gli attributi con un nome leggermente diverso come targai=targainput

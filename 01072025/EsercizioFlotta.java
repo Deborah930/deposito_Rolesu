@@ -182,11 +182,12 @@ class CompagniaAerea {// attributi
         // inserimento degli aerei in flotta
         for (Aereo a : flotta) {
             System.out.println(a);
+            a.lettura();
         }
         System.out.println("Piloti: ");
         // inserimento del pilota in piloti (dobbiamo dare un nome per stamparlo(p))
         for (Pilota p : piloti) {
-            System.out.println(p);
+           p.lettura();
         }
     }
 }

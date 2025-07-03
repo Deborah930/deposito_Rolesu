@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 
 public class ProvaPolimorfismo {
     ArrayList<X> insiemeX=new ArrayList<>();
@@ -40,4 +40,4 @@ public class ProvaPolimorfismo {
         System.out.println("azione x1");
     }
    
-}
+}*/

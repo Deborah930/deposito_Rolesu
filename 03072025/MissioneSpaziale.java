@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -26,8 +26,8 @@ public class MissioneSpaziale {
        
 
 
-        Astronauta astronauta= new Astronauta("Luca", "astronautaLuca@gmail.com", 0);
-        astronauta.login();
+       // Astronauta astronauta= new Astronauta("Luca", "astronautaLuca@gmail.com", 0);
+      //  astronauta.login();
         StazioneSpaziale stazione= new StazioneSpaziale("Piante", 4);
         Scienziato scienziato= new Scienziato("Paolo", "scienziatoPaolo@gmail.com", 0);
         scienziato.addEsperimento(stazione, "fioritura");
@@ -179,4 +179,4 @@ class Ispettore extends Astronauta
         
      }
     }
-}
+}*/

@@ -75,6 +75,10 @@ class Studente extends Persona implements Registrabile {
     public void registrazione() {
         System.out.println("Registrazione tramite modulo online");
     }
+    void stampaInfo()
+    {
+        System.out.println("Nome " + getNome() +"Eta: " +getEta() + classeFrequentata );
+    }
 }
 
 
@@ -114,18 +118,19 @@ class Docente extends Persona implements Registrabile {// attributi
         Scanner inputS= new Scanner(System.in);
         Scanner inputI= new Scanner(System.in);
         ArrayList<Persona> persone = new ArrayList<>();//arrayList di persone
-        /*creazione degli studenti e dei docenti
-       // persone.add(new Studente("Luca", 15, "2A"));
-      // persone.add(new Studente("Luigi", 16, "2B"));
-      //  persone.add(new Docente("Paolo", 50, "Informatica"));
-       // persone.add(new Docente("Silvia", 40, "Italiano"));
-        //foreach per richiamare i metodi
-     //   for (Persona p : persone) {
-      //      p.descriviRuolo();// richiama il metodo descriviRuolo
-            // instance of serve per controllare il tipo di un oggetto
-        //    if (p instanceof Registrabile) {
-            //    ((Registrabile) p).registrazione();// Fa il cast dell’oggetto(lo "vede" come un Registrabile), chiama il metodo registrazione
-                                           */       
+        /*
+        creazione degli studenti e dei docenti
+        persone.add(new Studente("Luca", 15, "2A"));
+        persone.add(new Studente("Luigi", 16, "2B"));
+        persone.add(new Docente("Paolo", 50, "Informatica"));
+        persone.add(new Docente("Silvia", 40, "Italiano"));
+        foreach per richiamare i metodi
+        for (Persona p : persone) {
+        p.descriviRuolo();// richiama il metodo descriviRuolo
+        instance of serve per controllare il tipo di un oggetto
+        if (p instanceof Registrabile) {
+        ((Registrabile) p).registrazione();// Fa il cast dell’oggetto(lo "vede" come un Registrabile), chiama il metodo registrazione
+        */       
             
             boolean continua= true;
             while (continua) {

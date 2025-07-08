@@ -26,8 +26,15 @@ stazione.setTemperatura(29.1f);
 void update(float temperatura);
     
 }
+//ci deve essere un interfaccia se ho più di una classe che usa i metodi 
+interface Subject
+{
+    void addDisplay(Display d);
+    void removeDisplay(Display d);
+    void notificaDisplay();
+}
 // classe della stazione meteo che aggiunge, rimuove, notifica e setta la temperatura 
-class StazioneMeteo {
+class StazioneMeteo implements Subject {
 
     private List<Display> registro = new ArrayList<>();
     private float temperatura;

@@ -20,11 +20,18 @@ interface Investitore
 {
     void notifica(String azione,double valore);
 }
+interface Object
+{
+    void aggiungiInvestitore(Investitore i);
+    void removeInvestitore(Investitore i);
+    void notificaInvestitore();
+}
+
 //singleton su agenzia borsa dove controllo che l'istanza non sia nulla e aggiungo un'istanza
-class AgenziaBorsa
+class AgenziaBorsa 
 {
     private static AgenziaBorsa istanza;
-    private List<Investitore> registro= new ArrayList<>();
+    private static List<Investitore> registro= new ArrayList<>();
     private String azione;
     private double valore;
 

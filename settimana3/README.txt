@@ -1,0 +1,2 @@
+Settimana 3 dedicata completamente ai pattern tranne il primo giorno 07/07/2025 con esercizio completo con tutti i pilastri dell'OOP.
+troviamo design pattern:singleton, Observer, decorator,strategy(non c'è un esercizio perché mancavo), factory method, facade e adapter.

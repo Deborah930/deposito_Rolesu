@@ -11,7 +11,7 @@ SELECT
     c.Population AS Popolazione,
     CASE 
         WHEN 'SI' = 'SI' THEN co.Name  -- si decide se far vedere la nazione -- 
-        ELSE '----' -- altrimenti non si vede niente--
+        ELSE NULL  -- altrimenti non si vede niente--
     END AS Nazione -- alias--
 FROM city AS c
 JOIN country AS co ON c.CountryCode = co.Code

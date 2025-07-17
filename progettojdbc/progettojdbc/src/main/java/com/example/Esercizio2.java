@@ -103,7 +103,7 @@ public class Esercizio2 {
             //Stampa nome, cognome e data di registrazione.
             System.out.println("\n5 clienti più recenti:");
             while (rs.next()) {
-                System.out.printf("%s %s - %s\n",//usa il metodo printf per stampare testo formattato.
+                System.out.printf("%s %s - %s\n",//usa il metodo printf per stampare testo formattato.%s indica che, nel punto in cui compare, verrà inserito un valore convertito in stringa.
                         rs.getString("first_name"),
                         rs.getString("last_name"),
                         rs.getTimestamp("create_date"));
